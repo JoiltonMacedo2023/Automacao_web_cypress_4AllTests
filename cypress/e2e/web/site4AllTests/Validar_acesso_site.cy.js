@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Menu 4All Tests', () => {
   it('Validar acesso a pagina Home', () => {
     cy.visit('https://4alltests.com.br')
